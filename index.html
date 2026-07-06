@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic research portfolio for an ECE Professor and Head of Department at IIIT Dharwad.">
+  <title>Prof. Rajesh | Embedded Intelligence Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="blob blob-one" aria-hidden="true"></div>
+  <div class="blob blob-two" aria-hidden="true"></div>
+  <div class="blob blob-three" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-copy">
+          <strong>Dr. Rajesh Kumar</strong>
+        </span>
+      </a>
+
+      <div class="nav-panel" id="navPanel">
+        <a class="nav-link active" href="#home">Home</a>
+        <div class="nav-dropdown" id="worksDropdown">
+          <button class="nav-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-section-target="works">
+            Works
+            <span class="chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="#works" role="menuitem" data-work-tab="coreResearch">Core Research</a>
+            <a href="#works" role="menuitem" data-work-tab="multidisciplinary">Multidisciplinary Research</a>
+            <a href="#works" role="menuitem" data-work-tab="patents">National / International Patents</a>
+            <a href="#works" role="menuitem" data-work-tab="publications">Publications</a>
+            <a href="#works" role="menuitem" data-work-tab="projectsGuided">Projects Guided</a>
+            <a href="#works" role="menuitem" data-work-tab="workshopsOrganised">Workshops/Conference Organised</a>
+            <a href="#works" role="menuitem" data-work-tab="booksChapters">Books/Chapters</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" id="moreDropdown">
+          <button class="nav-link dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false" data-section-target="more">
+            More
+            <span class="chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="#more" role="menuitem" data-more-tab="achievements">Achievements</a>
+            <a href="#more" role="menuitem" data-more-tab="teachingPortfolio">Teaching Portfolio</a>
+            <a href="#more" role="menuitem" data-more-tab="fdps">FDPs Attended</a>
+            <a href="#more" role="menuitem" data-more-tab="workshops">Workshops Attended</a>
+            <a href="#more" role="menuitem" data-more-tab="roles">Role and Responsibility</a>
+            <a href="#more" role="menuitem" data-more-tab="funded">Funded Projects</a>
+          </div>
+        </div>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-tools" aria-label="Quick actions">
+        <button class="theme-toggle ripple" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+          <span class="theme-toggle-track" aria-hidden="true">
+            <span class="theme-icon theme-icon-sun"></span>
+            <span class="theme-icon theme-icon-moon"></span>
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
+        <button class="menu-toggle tool-btn ripple" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <article class="home-panel glass-card reveal">
+        <div class="home-copy">
+          <p class="eyebrow hero-roleline">Educator · Researcher · Entrepreneur</p>
+          <h1>Dr. Rajesh Kumar</h1>
+          <p class="lead">
+            Academic researcher in Electronics and Communication Engineering, focused on RF, microwave,
+            analog VLSI, biomedical electronics, quantum circuits, and next-generation wireless systems.
+          </p>
+
+          <div class="hero-info-grid" aria-label="Professional highlights">
+            <article>
+              <span>Current Position</span>
+              <p>Assistant Professor, Electronics & Communication Engineering, IIIT Dharwad</p>
+            </article>
+            <article>
+              <span>Founder and Director</span>
+              <p>Research-led innovation initiatives in RF, VLSI and wireless systems</p>
+            </article>
+            <article>
+              <span>Specialisation</span>
+              <p>Analog VLSI, RFIC/MMIC, power amplifiers, biomedical and quantum circuits</p>
+            </article>
+          </div>
+
+          <div class="hero-link-grid" aria-label="Profile links">
+            <a class="hero-link primary ripple" href="#contact">Connect</a>
+            <a class="hero-link ripple" href="https://scholar.google.com/citations?user=MDAZoyAAAAAJ&hl=en&authuser=2" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a class="hero-link ripple" href="https://www.researchgate.net/profile/Rajesh-Kumar-262" target="_blank" rel="noreferrer">ResearchGate</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Academic metrics">
+            <span><strong>15+</strong> Years Teaching Experience</span>
+            <span><strong>10+</strong> Core Research Areas</span>
+            <span><strong>10+</strong> Patents</span>
+            <span><strong>35+</strong> Publications</span>
+            <span><strong>Ph.D.</strong> IIT (ISM) Dhanbad</span>
+          </div>
+        </div>
+
+        <aside class="home-photo" aria-label="Client photo space">
+          <div class="photo-frame">
+            <img class="profile-photo" src="assets/rajeshsir_ece.jpg" alt="Portrait of Dr. Rajesh Kumar">
+          </div>
+        </aside>
+
+        <section class="skills-panel" aria-label="Key and technical skills">
+          <article class="skill-column">
+            <div class="block-heading">
+              <span>Key Skills</span>
+              <h2>Applied expertise across analog, RF, biomedical, FPGA and quantum systems</h2>
+            </div>
+            <div class="skill-list">
+              <p><strong>Analog Circuit Design:</strong> Strong expertise in designing and analyzing analog circuits for high-performance electronic systems.</p>
+              <p><strong>Microwave Monolithic Integrated Circuits (MMICs):</strong> Specialized in analysis and design of reconfigurable power amplifiers for next-generation high-frequency wireless systems.</p>
+              <p><strong>RF Integrated Circuits (RFICs):</strong> Proficient in CMOS and GaN MMIC-based power amplifier design, emphasizing efficiency, linearity, and reliability for embedded and high-speed applications.</p>
+              <p><strong>Biomedical Applications:</strong> Experienced in developing carbon nanotube and graphene-based amplifiers, as well as specialized RF power amplifiers for medical diagnostic systems.</p>
+              <p><strong>FPGA-Based Wireless Transceivers:</strong> Integrating RF front-ends with digital baseband systems on FPGA platforms for real-time wireless communication applications.</p>
+              <p><strong>RF Power Amplifier Design & Modeling:</strong> Expertise in embedding device models into RF amplifier design to enhance performance prediction, characterization, and optimization.</p>
+              <p><strong>Quantum Circuit Design:</strong> Knowledgeable in the principles and design methodologies of quantum circuits for emerging computing and communication technologies.</p>
+            </div>
+          </article>
+
+          <article class="skill-column">
+            <div class="block-heading">
+              <span>Technical Skills</span>
+              <h2>Design, simulation, measurement and embedded implementation capabilities</h2>
+            </div>
+            <div class="technical-groups">
+              <div>
+                <h3>RF and Microwave Circuit Design</h3>
+                <p>Reconfigurable, Doherty, and Class-F/F<sup>-1</sup> power amplifiers.</p>
+              </div>
+              <div>
+                <h3>Low-Noise and High-Efficiency Amplifier Design</h3>
+                <p>For 5G, IoT, and biomedical applications.</p>
+              </div>
+              <div>
+                <h3>MMIC/RFIC Design</h3>
+                <p>Using CMOS, BiCMOS, and GaN technologies.</p>
+              </div>
+              <div>
+                <h3>Analog and Mixed-Signal Circuit Design</h3>
+                <p>Precision biasing, reference circuits, front-end architectures.</p>
+              </div>
+              <div>
+                <h3>Quantum Circuit Design</h3>
+                <p>LNAs and PAs for quantum communication systems.</p>
+              </div>
+              <div>
+                <h3>Simulation and Modeling Tools</h3>
+                <p>Keysight ADS, Cadence Virtuoso, LTspice, MATLAB, ModelSim, Xilinx tools, AWR Microwave Office, HFSS, DPD, and envelope analysis.</p>
+              </div>
+              <div>
+                <h3>Measurement and Characterization</h3>
+                <p>Agilent VNA, S-parameter test sets, signal analyzer, RF generator, probe station testing, load-pull/source-pull measurements, harmonic balance, and envelope simulation.</p>
+              </div>
+              <div>
+                <h3>Embedded and FPGA Systems</h3>
+                <p>Xilinx FPGA-based wireless transceiver design and integration of RF front-end with digital baseband systems.</p>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="profile-tables" aria-label="Experience, education and achievements">
+          <article class="table-card">
+            <div class="block-heading">
+              <span>Work Experience</span>
+              <h2>Academic teaching and research appointments</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Period</th>
+                    <th>Role</th>
+                    <th>Institution</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>03/10/2023 - Present</td>
+                    <td>Assistant Professor | Teaching</td>
+                    <td>IIIT Dharwad</td>
+                  </tr>
+                  <tr>
+                    <td>01/04/2023 - 20/09/2024</td>
+                    <td>Associate Professor | Teaching</td>
+                    <td>GCET Greater Noida</td>
+                  </tr>
+                  <tr>
+                    <td>20/09/2022 - 31/03/2023</td>
+                    <td>Associate Professor | Teaching</td>
+                    <td>GCET Greater Noida</td>
+                  </tr>
+                  <tr>
+                    <td>Jan 2020 - May 2020<br>Jan 2021 - May 2021</td>
+                    <td>Assistant Professor | Teaching</td>
+                    <td>NSIT Delhi</td>
+                  </tr>
+                  <tr>
+                    <td>11/07/2015 - 11/07/2016</td>
+                    <td>Junior Research Fellow (JRF) | Research</td>
+                    <td>DST (IIT Delhi)</td>
+                  </tr>
+                  <tr>
+                    <td>2013 - 2015</td>
+                    <td>Assistant Professor | Teaching</td>
+                    <td>MRK IET Rewari</td>
+                  </tr>
+                  <tr>
+                    <td>2007 - 2011</td>
+                    <td>Senior Lecturer | Teaching</td>
+                    <td>Apeejay College of Engineering, Gurgaon</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="table-card">
+            <div class="block-heading">
+              <span>Educational Qualifications</span>
+              <h2>Formal training in ECE, VLSI and RF-VLSI design</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Degree</th>
+                    <th>Period</th>
+                    <th>Institution / Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>B.E (Electronics and Communication)</td>
+                    <td>2003 - 2007</td>
+                    <td>Dr. B. R. Ambedkar University, Agra, Uttar Pradesh</td>
+                  </tr>
+                  <tr>
+                    <td>M.Tech (VLSI Design)</td>
+                    <td>2007 - 2009</td>
+                    <td>Department of ICT, Gautam Buddha University, Uttar Pradesh</td>
+                  </tr>
+                  <tr>
+                    <td>Ph.D (RF-VLSI Design)</td>
+                    <td>2016 - 2022</td>
+                    <td>IIT (ISM) Dhanbad, India<br>Topic: Design and Analysis of Reconfigurable Amplifiers for Wireless Applications</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="table-card">
+            <div class="block-heading">
+              <span>Achievements & Awards</span>
+              <h2>Recognition, fellowships and professional review contributions</h2>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Recognition</th>
+                    <th>Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2024</td>
+                    <td>Best Poster Award</td>
+                    <td>24-32 GHz Single-Chip Harmonic Balance Power Amplifier for 5G Microwave Applications</td>
+                  </tr>
+                  <tr>
+                    <td>2024</td>
+                    <td>First Prize (Oral Presentation)</td>
+                    <td>24-32 GHz Single-Chip Harmonic Balance Power Amplifier for 5G Microwave Applications</td>
+                  </tr>
+                  <tr>
+                    <td>2016 - 2017</td>
+                    <td>Junior Research Fellowship (JRF)</td>
+                    <td>Department of Science and Technology (DST), Government of India</td>
+                  </tr>
+                  <tr>
+                    <td>2017 - Present</td>
+                    <td>Reviewer (Journals & Conferences)</td>
+                    <td>Includes IEEE Transactions, International Journal of Circuit Theory and Applications, and INDICON Delhi Section.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </section>
+      </article>
+    </section>
+
+    <section class="works section" id="works">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected Works</p>
+        <h2>Research, Innovation and Academic Contributions</h2>
+      </div>
+
+      <div class="tabs glass-shell reveal" role="tablist" aria-label="Portfolio categories">
+        <button class="tab-btn active" type="button" role="tab" aria-selected="true" data-work-tab="coreResearch">Core Research</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-work-tab="multidisciplinary">Multidisciplinary Research</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-work-tab="patents">National / International Patents</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-work-tab="publications">Publications</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-work-tab="projectsGuided">Projects Guided</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-work-tab="workshopsOrganised">Workshops/Conference Organised</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-work-tab="booksChapters">Books/Chapters</button>
+      </div>
+
+      <div class="work-grid" id="workGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="more section" id="more">
+      <div class="section-heading reveal">
+        <p class="eyebrow">More Academic Details</p>
+        <h2>Achievements, Development Programs, Responsibilities and Funded Projects</h2>
+      </div>
+
+      <div class="tabs glass-shell reveal more-tabs" role="tablist" aria-label="More portfolio categories">
+        <button class="tab-btn active" type="button" role="tab" aria-selected="true" data-more-tab="achievements">Achievements</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-more-tab="teachingPortfolio">Teaching Portfolio</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-more-tab="fdps">FDPs Attended</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-more-tab="workshops">Workshops Attended</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-more-tab="roles">Role and Responsibility</button>
+        <button class="tab-btn" type="button" role="tab" aria-selected="false" data-more-tab="funded">Funded Projects</button>
+      </div>
+
+      <div class="work-grid more-grid" id="moreGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-editorial glass-card reveal">
+        <div class="contact-left">
+          <p class="contact-kicker">Contact</p>
+          <h2>Let's collaborate</h2>
+          <p class="contact-lead">
+            Open to academic collaborations, research discussions, funded projects, student mentoring,
+            and industry-linked work in RF, VLSI, microwave, biomedical, and next-generation wireless systems.
+          </p>
+
+          <ul class="contact-lines" aria-label="Direct contact information">
+            <li>
+              <span aria-hidden="true">@</span>
+              <a href="mailto:rajeshict42@gmail.com">rajeshict42@gmail.com</a>
+            </li>
+            <li>
+              <span aria-hidden="true">@</span>
+              <a href="mailto:rajeshk@iiitdwd.ac.in">rajeshk@iiitdwd.ac.in</a>
+            </li>
+            <li>
+              <span aria-hidden="true">P</span>
+              <a href="tel:+918506007086">+91 8506007086</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-right">
+          <section class="contact-group" aria-labelledby="officeHeading">
+            <h3 id="officeHeading">Current Office</h3>
+            <p>Department of Electronics & Communication Engineering</p>
+            <p>IIIT Dharwad, Karnataka, India</p>
+          </section>
+
+          <section class="contact-group" aria-labelledby="profileHeading">
+            <h3 id="profileHeading">Online Profiles</h3>
+            <ul class="profile-links">
+              <li>
+                <a href="https://scholar.google.com/citations?user=MDAZoyAAAAAJ&hl=en&authuser=2" target="_blank" rel="noreferrer">Google Scholar - Research & Publications</a>
+              </li>
+              <li>
+                <a href="https://www.researchgate.net/profile/Rajesh-Kumar-262" target="_blank" rel="noreferrer">ResearchGate - Academic Profile</a>
+              </li>
+              <li>
+                <a href="https://iiitdwd.ac.in/academics/departments/" target="_blank" rel="noreferrer">IIIT Dharwad - Institutional Profile</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/search/results/people/?keywords=Rajesh%20Kumar%20IIIT%20Dharwad" target="_blank" rel="noreferrer">LinkedIn - Professional Profile</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <p class="page-end reveal">End of Page</p>
+    </section>
+  </main>
+
+  <div class="modal" id="workModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel glass-card" role="document">
+      <button class="modal-close" type="button" aria-label="Close details" data-close-modal>&times;</button>
+      <div class="modal-media" id="modalMedia" aria-hidden="true"></div>
+      <p class="card-kicker" id="modalDomain"></p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-meta" id="modalMeta"></div>
+      <div class="modal-tags" id="modalTags"></div>
+      <div class="modal-links">
+        <a class="btn secondary ripple" id="modalPdf" href="#" target="_blank" rel="noreferrer">PDF / Document</a>
+        <a class="btn primary ripple" id="modalExternal" href="#" target="_blank" rel="noreferrer">External Link</a>
+      </div>
+    </article>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Inquiry submitted successfully.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
